@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Mina Adel — Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- AOS (Animation on scroll) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating Social Icons -->
+    <div class="social-fixed">
+        <a href="https://www.linkedin.com/in/mina-adel-kamel" target="_blank" aria-label="LinkedIn">in</a>
+        <a href="https://github.com/mina090Eng" target="_blank" aria-label="GitHub">gh</a>
+        <a href="https://wa.me/201554393983" target="_blank" aria-label="WhatsApp">wa</a>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a class="brand-link" href="#home">Mina Adel</a>
+        </div>
+
+        <div class="nav-center">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#courses" class="nav-link">Courses</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#certificates" class="nav-link">Certificates</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <div class="nav-right">
+            <a class="cv-btn" href="Mina-Adel-Kamel-Dous-FlowCV-Resume-20250916.pdf" download>Download CV</a>
+            <button id="theme-toggle" class="toggle-btn" aria-label="Toggle theme">🌙</button>
+        </div>
+    </nav>
+
+    <!-- PAGE CONTENT -->
+    <main class="page">
+        <!-- HERO / HEADER -->
+        <section id="home" class="header-section" data-aos="fade-up">
+            <div class="header-inner">
+                <img src="صورة واتساب بتاريخ 2025-09-08 في 19.41.26_a01acbe6.jpg" alt="Mina Adel" class="profile-pic"
+                    id="profilePic">
+                <div class="header-text">
+                    <h1>Mina Adel Kamel</h1>
+                    <p class="lead">SOC Analyst & Web Developer</p>
+                    <div class="header-cta">
+                        <a class="primary" href="#contact">Contact Me</a>
+                        <a class="ghost" href="https://wa.me/201554393983" target="_blank">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="card" data-aos="fade-right">
+            <h2>About</h2>
+            <p>
+                Cybersecurity Specialist and Instructor with experience in Security Operations Center (SOC),
+                Fundamentals of Cybersecurity,
+                and Web Development. Skilled in SIEM solutions, penetration testing, and incident response. Passionate
+                about combining
+                academic knowledge with practical SOC expertise to help people grow in IT & security.
+            </p>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience" class="card" data-aos="fade-left">
+            <h2>Professional Experience</h2>
+            <ul>
+                <li><strong>Security Operations Center (SOC) – Cybersecurity Specialist</strong>
+                    <ul>
+                        <li>Monitoring security events and incidents in real-time.</li>
+                        <li>Analyzing alerts, detecting threats, and performing incident response.</li>
+                        <li>Working with SIEM tools (Splunk, QRadar, ELK Stack).</li>
+                    </ul>
+                </li>
+                <li><strong>Instructor – Cybersecurity & Web Development</strong>
+                    <ul>
+                        <li>Teaching Fundamentals of Cybersecurity and Web Development.</li>
+                        <li>Delivering hands-on training to students and beginners in IT.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- COURSES -->
+        <section id="courses" class="card" data-aos="fade-up">
+            <h2>Courses</h2>
+
+            <div class="course-card">
+                <h3>Infrastructure and Security - Cyber Security Incident Response Analyst</h3>
+                <ul>
+                    <li>Respond to security incidents (phishing, network, email, IDS, antivirus).</li>
+                    <li>Perform log, vulnerability, and compliance analysis.</li>
+                    <li>Collect and securely handle evidence.</li>
+                    <li>Draft reports and security briefs.</li>
+                    <li>Participate in team meetings and support infrastructure projects.</li>
+                </ul>
+            </div>
+
+            <div class="course-card">
+                <h3>Entrepreneurship Training – Ministry of Communications and IT</h3>
+                <ul>
+                    <li>Training on entrepreneurship and innovation.</li>
+                    <li>Focus on freelancing, startup development, and managing tech businesses.</li>
+                </ul>
+            </div>
+
+            <div class="course-card">
+                <h3>Instant Company – SOC Analyst</h3>
+                <ul>
+                    <li>Introduction to SOC operations and lifecycle.</li>
+                    <li>Working with SIEM tools (Splunk, QRadar).</li>
+                    <li>Security incident analysis and reporting.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PROJECTS (gallery) -->
+        <section id="projects" class="card" data-aos="fade-up">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- each project-card includes img, title, short desc, links -->
+                <article class="project-card" data-aos="zoom-in">
+                    <img src="لقطة شاشة 2025-09-15 222642.png" alt="Online Shop screenshot">
+                    <div class="proj-body">
+                        <h3>Online Shopping Website</h3>
+                        <p>Simple online store — product pages, navigation, contact form.</p>
+                        <div class="proj-links">
+                            <a href="https://online-shop-opal-three.vercel.app/" target="_blank">Live</a>
+                            <a href="https://github.com/mina090Eng/online-shop" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="develop-genetic-algorithms-in-python copy 2.png" alt="Genetic Algorithm">
+                    <div class="proj-body">
+                        <h3>Genetic Algorithm Project</h3>
+                        <p>Python GA for optimization demonstrating selection, crossover, mutation.</p>
+                        <div class="proj-links">
+                            <a href="#" target="_blank">Repo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="2023-05-29-09.20.35-localhost-d865dbc03a76.png" alt="Hotel System">
+                    <div class="proj-body">
+                        <h3>Hotel System (C++)</h3>
+                        <p>Room booking, guest data, availability management.</p>
+                        <div class="proj-links">
+                            <a href="#" target="_blank">Source</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- CERTIFICATES -->
+        <section id="certificates" class="card" data-aos="fade-right">
+            <section class="certificates card">
+                <h2>Certificates</h2>
+                <div class="cert-container">
+                    <a href="Course_Certificate_En.pdf" target="_blank" class="cert-card">
+                        <span class="icon">📜</span>
+                        <p>Ethical Hacking</p>
+                    </a>
+
+                    <a href="Mina Adel Kamel Certificate.pdf" target="_blank" class="cert-card">
+                        <span class="icon">📜</span>
+                        <p>Entrepreneurship Training – Ministry of Communications and IT</p>
+                        <a href="python.pdf" target="_blank" class="cert-card">
+                            <span class="icon">📜</span>
+                            <p>python Programmin</p>
+                        </a>
+
+                        <a href="Job_Profile.pdf" target="_blank" class="cert-card">
+                            <span class="icon">📜</span>
+                            <p>Job_Profile for cyber security</p>
+                            <a href="Computer network.pdf" target="_blank" class="cert-card">
+                                <span class="icon">📜</span>
+                                <p>Computer network</p>
+                            </a>
+                            <a href="network security.pdf" target="_blank" class="cert-card">
+                                <span class="icon">📜</span>
+                                <p>network security</p>
+                                <a href="Cloud and Virtualization Concepts.pdf" target="_blank" class="cert-card">
+                                    <span class="icon">📜</span>
+                                    <p>Cloud and Virtualization Concepts</p>
+                                </a>
+                </div>
+            </section>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="card" data-aos="fade-up">
+            <h2>Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill">
+                    <div class="skill-head">
+                        <span>SIEM / SOC</span>
+                        <span class="skill-percent" data-value="90">0%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-fill="90"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-head">
+                        <span>Python</span>
+                        <span class="skill-percent" data-value="80">0%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-fill="80"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-head">
+                        <span>Web (HTML/CSS/JS)</span>
+                        <span class="skill-percent" data-value="75">0%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-fill="75"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-head">
+                        <span>Incident Response</span>
+                        <span class="skill-percent" data-value="85">0%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-fill="85"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="card" data-aos="fade-up">
+            <h2>Contact</h2>
+
+            <div class="contact-grid">
+                <form id="contactForm" class="contact-form">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+                    <div class="form-actions">
+                        <button type="submit" class="primary">Send message</button>
+                        <a class="ghost" href="https://wa.me/201554393983" target="_blank">Message on WhatsApp</a>
+
+                    </div>
+                    <p class="form-note" id="form-note" aria-live="polite"></p>
+
+                </form>
+
+                <div class="contact-info">
+                    <p>📧 <a href="mailto:menaadel6432@gmail.com">menaadel6432@gmail.com</a></p>
+                    <p>💼 <a href="https://www.linkedin.com/in/mina-adel-kamel"
+                            target="_blank">linkedin.com/in/mina-adel-kamel</a></p>
+
+                    <p>💻 <a href="https://github.com/mina090Eng" target="_blank">GitHub</a></p>
+
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Mina Adel Kamel — All Rights Reserved</p>
+    </footer>
+
+    <!-- AOS script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Main JS -->
+    <script src="script.js"></script>
+    <script> AOS.init({ once: true, duration: 700 }); </script>
+</body>
+
+</html>
